@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+		<listener class-name="genericUtility.ListenersImplementionClass" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testCaseRepo.TC_003" />
+			<class name="testCaseRepo.Test_TC_001" />
+			<class name="testCaseRepo.TC_004" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

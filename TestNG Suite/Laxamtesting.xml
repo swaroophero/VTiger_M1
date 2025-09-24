@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="classes">
+	<groups>
+		<run>
+			<include name="sanity"></include>
+		</run>
+	</groups>
+	<test thread-count="5" name="Test1">
+	<parameter name="browser" value="firefox">
+	</parameter>
+		<classes>
+			<class name="testCaseRepo.TC_003" />
+			<class name="testCaseRepo.TC_001" />
+			
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome">
+	</parameter>
+		<classes>
+			<class name="testCaseRepo.TC_003" />
+			<class name="testCaseRepo.TC_001" />
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

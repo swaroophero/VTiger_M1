@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel ="classes">
+
+  <test thread-count="2" name="Test">
+  <parameter name="browser" value="firefox" />
+
+    <classes>
+      <class name="testCaseRepo.TC_003"/>
+      
+      <class name="testCaseRepo.TC_005"/>
+      <class name="testCaseRepo.TC_006"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

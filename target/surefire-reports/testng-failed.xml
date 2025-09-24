@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="genericUtility.ListenersImplementionClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testCaseRepo.TC_003">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="dbConnection"/>
+          <include name="logoutOperation"/>
+          <include name="LE_003"/>
+          <include name="loginOperation"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCaseRepo.TC_003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

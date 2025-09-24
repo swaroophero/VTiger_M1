@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testCaseRepo.Test_TC_001">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="dbConnection"/>
+          <include name="logoutOperation"/>
+          <include name="loginOperation"/>
+          <include name="closeBrowser"/>
+          <include name="LE_001"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testCaseRepo.Test_TC_001 -->
+      <class name="practice.TestNGPractise">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="dbConnection"/>
+          <include name="deleteUser"/>
+          <include name="createUser"/>
+          <include name="logoutOperation"/>
+          <include name="loginOperation"/>
+          <include name="modifyUser"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- practice.TestNGPractise -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
